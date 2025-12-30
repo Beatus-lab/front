@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000'
+const BACKEND = import.meta.env.VITE_BACKEND_URL || 'https://back-udhn.onrender.com'
 
 function App() {
   const [user, setUser] = useState(null)
